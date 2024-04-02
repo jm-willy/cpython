@@ -900,7 +900,7 @@ class TestCase(object):
            (default 7) and comparing to zero, or by comparing that the
            difference between the two objects is more than the given
            delta and by comparing that the first object is greater 
-           than the second object plus delta or smaller than the 
+           than the second object plus delta and smaller than the 
            second object minus detla.
 
            Note that decimal places (from zero) are usually not the same
@@ -954,7 +954,7 @@ class TestCase(object):
            (default 7) and comparing to zero, or by comparing that the
            difference between the two objects is less than the given
            delta and by comparing that the first object is not greater 
-           than the second object plus delta or smaller than the 
+           than the second object plus delta and not smaller than the 
            second object minus delta.
 
            Note that decimal places (from zero) are usually not the same
